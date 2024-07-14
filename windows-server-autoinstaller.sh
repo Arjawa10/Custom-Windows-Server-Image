@@ -6,7 +6,8 @@ display_menu() {
     echo "1. Windows Server 2016"
     echo "2. Windows Server 2019"
     echo "3. Windows Server 2022"
-    echo "4. Windows 11"
+    echo "4. Windows 10"
+    echo "5. Windows 11"
     read -p "Enter your choice: " choice
 }
 
@@ -44,7 +45,13 @@ case $choice in
         iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195280&clcid=0x409&culture=en-us&country=US"
         iso_file="windows2022.iso"
         ;;
-    4)
+    4) 
+        # Windows 10
+        img_file="windows10.img"
+        iso_link="https://file.download.id/Win10_21H2_x64_en_DOWNLOAD.ID.iso"
+        iso_file="windows10.iso"
+        ;;    
+    5)
         # Windows 11
         img_file="windows11.img"
         iso_link="https://software.download.prss.microsoft.com/dbazure/Win11_23H2_English_x64v2.iso?t=4b6f6bc9-8966-44d8-bc76-72952ef608e0&P1=1720967551&P2=601&P3=2&P4=S4KdQejQjBnoKTdUFhYXJdH04G9wdJcydUDa9WJGQDjivKnLlW9DZ5k1Zl2NlUnaZNhgACyv%2fvtYoABo0EMdrwq%2fDntPF4A6T6U19eDXWsApaSacgIVYcFn34RHk9kt62MdmelnFpA3g1mgmvz1grxPY1XMXNHfJcnyP7SnxXU5nfDRv9r1IDs3sHR6BUlho5%2b85AJIl%2bNU29McELTrXO0Zio41A%2bRDM4%2bjB1gdqr5tMq2HrQ8BW8oQfjCQTZyCpq9Vp0R1UuaRFfYThiFR1y170ub11mTo2uTbhlnEg3xACEm90RAejnvR1JKvIGhaB8BN0dIuhKcRMKyhBMtk4ww%3d%3d"
