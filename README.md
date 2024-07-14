@@ -7,7 +7,7 @@
 Download file Installernya
 
 ```jsx
-wget https://raw.githubusercontent.com/rennode/Custom-Windows-Server-Image/main/windows-server-autoinstaller.sh
+wget https://github.com/Arjawa10/Custom-Windows-Server-Image/raw/main/windows-server-autoinstaller.sh
 ```
 
 Beri permission ke file tersebut
